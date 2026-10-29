@@ -78,10 +78,13 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "index.html",
-    "revision": "2c4fa5ed74762013efe3b3209d29dc8a"
+    "revision": "c971fddad6076d5ff579c4a127b033a3"
   }, {
     "url": "favicon.svg",
     "revision": "b68f4a4a1fdddffc5e24d04d005539cb"
+  }, {
+    "url": "devbook.html",
+    "revision": "5e221a12b172f96806c4c2e25ba0e8c7"
   }, {
     "url": "icons/icon-maskable-512.png",
     "revision": "9405ca40cf283a7b6c0fae0f73e5191e"
@@ -95,10 +98,19 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "url": "assets/workbox-window.prod.es5-Bd17z0YL.js",
     "revision": null
   }, {
-    "url": "assets/index-DMx4o79K.css",
+    "url": "assets/main-DkhP83yv.css",
     "revision": null
   }, {
-    "url": "assets/index-B_Zritcx.js",
+    "url": "assets/main-CnddG1lz.js",
+    "revision": null
+  }, {
+    "url": "assets/devbook-X0C4QQRG.css",
+    "revision": null
+  }, {
+    "url": "assets/devbook-D8-Hwwzo.js",
+    "revision": null
+  }, {
+    "url": "assets/bridge-ROiZd0Mu.js",
     "revision": null
   }, {
     "url": "favicon.svg",
@@ -117,6 +129,8 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "bb44755301714758b0edaa4492559a9c"
   }], {});
   workbox.cleanupOutdatedCaches();
-  workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
+  workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html"), {
+    denylist: [/devbook\.html$/]
+  }));
 
 }));
