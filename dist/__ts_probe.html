@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>WebGPU timestamp-query 兼容性探测</title>
+  </head>
+  <body>
+    <h1>timestamp-query 探测</h1>
+    <pre id="out">运行中…</pre>
+    <script type="module">
+      const out = document.getElementById('out')
+      const log = (label, value) => {
+        out.textContent += `\n${label}: ${JSON.stringify(value)}`
+      }
+
+      const results = {}
+      for (const level of [null, 'compatibility', 'core']) {
+        const opts = { powerPreference: 'high-performance' }
+        if (level) opts.featureLevel = level
+        try {
+          const adapter = await navigator.gpu.requestAdapter(opts)
+          if (!adapter) {
+            results[level || 'default'] = 'adapter=null'
+            continue
+          }
+          const features = [...adapter.features]
+          let granted = null
+          let deviceError = null
+          try {
+            const dev = await adapter.requestDevice({
+              requiredFeatures: features.filter((f) => f === 'timestamp-query'),
+            })
+            granted = dev.features.has('timestamp-query')
+            dev.destroy()
+          } catch (e) {
+            deviceError = String(e)
+          }
+          results[level || 'default'] = {
+            hasTimestampQuery: features.includes('timestamp-query'),
+            features,
+            deviceGrantedTimestampQuery: granted,
+            deviceError,
+            isFallbackAdapter: adapter.isFallbackAdapter,
+          }
+        } catch (e) {
+          results[level || 'default'] = 'error: ' + String(e)
+        }
+      }
+      log('results', results)
+      window.__PROBE__ = results
+    </script>
+  </body>
+</html>

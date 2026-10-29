@@ -77,6 +77,9 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
+    "url": "__ts_probe.html",
+    "revision": "bb022c1bbb885328aa0743a0fcaf092a"
+  }, {
     "url": "index.html",
     "revision": "9460353c49d5b0bc92d1c7dbbf109b00"
   }, {
