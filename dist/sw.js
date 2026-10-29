@@ -78,13 +78,13 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "index.html",
-    "revision": "51314fbfd08cff1deef60c8d57530a6f"
+    "revision": "54eeb34f359c0a56d7a1f42dfbcdbaf7"
   }, {
     "url": "favicon.svg",
     "revision": "b68f4a4a1fdddffc5e24d04d005539cb"
   }, {
     "url": "devbook.html",
-    "revision": "fd40f01bd2c663b348bf9c30edbcf52c"
+    "revision": "56c08ca200d89cd49f739773e875344f"
   }, {
     "url": "icons/icon-maskable-512.png",
     "revision": "9405ca40cf283a7b6c0fae0f73e5191e"
@@ -101,16 +101,16 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "url": "assets/theme-DB9Ze2FH.css",
     "revision": null
   }, {
-    "url": "assets/theme-BfMeyHbZ.js",
+    "url": "assets/theme-Bnc6zkVM.js",
     "revision": null
   }, {
     "url": "assets/main-DB3BG_fZ.css",
     "revision": null
   }, {
-    "url": "assets/main-D4juOza8.js",
+    "url": "assets/main-CUGr9oEJ.js",
     "revision": null
   }, {
-    "url": "assets/devbook-D0W_yj_R.js",
+    "url": "assets/devbook-D9kHILtw.js",
     "revision": null
   }, {
     "url": "assets/devbook-CpTZH8t7.css",
