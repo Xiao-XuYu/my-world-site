@@ -78,22 +78,22 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "index.html",
-    "revision": "2dc52d902607efb0ae05097858fcdc05"
+    "revision": "ab7b9537a342173f1868986f475036b0"
   }, {
     "url": "favicon.svg",
-    "revision": "b68f4a4a1fdddffc5e24d04d005539cb"
+    "revision": "204f66905990453009b37a953bbc0762"
   }, {
     "url": "devbook.html",
-    "revision": "295fa36377ba6d89e3a33dbb6d677cb2"
+    "revision": "fe0c4e451221f423db7d4dba38e89932"
   }, {
     "url": "icons/icon-maskable-512.png",
-    "revision": "9405ca40cf283a7b6c0fae0f73e5191e"
+    "revision": "d1b3629bdfdc2541a76160b0d00e8ce8"
   }, {
     "url": "icons/icon-512.png",
-    "revision": "832dd4fad3e1179db11bf5797adac073"
+    "revision": "b4d357029d18a4dfe792ce704049e252"
   }, {
     "url": "icons/icon-192.png",
-    "revision": "c3102c406fb6b178d18c8bdb86fbd37d"
+    "revision": "c50e52412f5afca70d097a112a8c85ae"
   }, {
     "url": "assets/workbox-window.prod.es5-Bd17z0YL.js",
     "revision": null
@@ -101,35 +101,35 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "url": "assets/theme-E1y3u0Rn.css",
     "revision": null
   }, {
-    "url": "assets/theme-DXGViEY9.js",
+    "url": "assets/theme-CKMAaWVJ.js",
+    "revision": null
+  }, {
+    "url": "assets/main-Du3JEmn4.js",
     "revision": null
   }, {
     "url": "assets/main-CjLztX1H.css",
     "revision": null
   }, {
-    "url": "assets/main-BW2AevL6.js",
+    "url": "assets/devbook-DPcdzUeN.js",
     "revision": null
   }, {
     "url": "assets/devbook-D5v-zDzm.css",
     "revision": null
   }, {
-    "url": "assets/devbook-Bw95ZGc-.js",
-    "revision": null
-  }, {
     "url": "favicon.svg",
-    "revision": "b68f4a4a1fdddffc5e24d04d005539cb"
+    "revision": "204f66905990453009b37a953bbc0762"
   }, {
     "url": "icons/icon-192.png",
-    "revision": "c3102c406fb6b178d18c8bdb86fbd37d"
+    "revision": "c50e52412f5afca70d097a112a8c85ae"
   }, {
     "url": "icons/icon-512.png",
-    "revision": "832dd4fad3e1179db11bf5797adac073"
+    "revision": "b4d357029d18a4dfe792ce704049e252"
   }, {
     "url": "icons/icon-maskable-512.png",
-    "revision": "9405ca40cf283a7b6c0fae0f73e5191e"
+    "revision": "d1b3629bdfdc2541a76160b0d00e8ce8"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "bb44755301714758b0edaa4492559a9c"
+    "revision": "34bb079c35eaa12cef0e786423d53458"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html"), {
