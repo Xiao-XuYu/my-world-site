@@ -87,13 +87,13 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "c9b833ad6c7083ba45a20221593bbf1d"
   }, {
     "url": "icons/icon-maskable-512.png",
-    "revision": "ec66d3ee2b9d1c5b6d457d799724cc5c"
+    "revision": "2d277f9d05d797901cd0dbdd8450df53"
   }, {
     "url": "icons/icon-512.png",
-    "revision": "5d73ffd20fe3fb180b4a25c73179e7d0"
+    "revision": "248c2a73a1ada447de7f26b13983b88f"
   }, {
     "url": "icons/icon-192.png",
-    "revision": "79bd25b36bc7d9986b6db6b34171c6ea"
+    "revision": "da6d00f2dcea2fb7df29d277624a8f0b"
   }, {
     "url": "assets/workbox-window.prod.es5-Bd17z0YL.js",
     "revision": null
@@ -120,13 +120,13 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "e7a41959706887f7c8c7b542177153fd"
   }, {
     "url": "icons/icon-192.png",
-    "revision": "79bd25b36bc7d9986b6db6b34171c6ea"
+    "revision": "da6d00f2dcea2fb7df29d277624a8f0b"
   }, {
     "url": "icons/icon-512.png",
-    "revision": "5d73ffd20fe3fb180b4a25c73179e7d0"
+    "revision": "248c2a73a1ada447de7f26b13983b88f"
   }, {
     "url": "icons/icon-maskable-512.png",
-    "revision": "ec66d3ee2b9d1c5b6d457d799724cc5c"
+    "revision": "2d277f9d05d797901cd0dbdd8450df53"
   }, {
     "url": "manifest.webmanifest",
     "revision": "34bb079c35eaa12cef0e786423d53458"
