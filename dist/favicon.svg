@@ -8,8 +8,8 @@
     </linearGradient>
     <radialGradient id="glow" cx="0.703" cy="0.203" r="0.46">
       <stop offset="0" stop-color="#ffd76a" stop-opacity="0.45"/>
-      <stop offset="0.4" stop-color="#ffcf6b" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#ffcf6b" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#ffc25c" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffc25c" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="64" height="64" rx="14" fill="url(#sky)"/>

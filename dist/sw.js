@@ -78,22 +78,22 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "index.html",
-    "revision": "193727565e61cfe55ee59c76cf9bb9a3"
+    "revision": "5e6e9ab8d077bcd04e2989d59104d6ae"
   }, {
     "url": "favicon.svg",
-    "revision": "e7a41959706887f7c8c7b542177153fd"
+    "revision": "5eda7d5fe764f3391cbeaf08ef72a864"
   }, {
     "url": "devbook.html",
     "revision": "c9b833ad6c7083ba45a20221593bbf1d"
   }, {
     "url": "icons/icon-maskable-512.png",
-    "revision": "2d277f9d05d797901cd0dbdd8450df53"
+    "revision": "783e0360971fe05ad2d1b2548494177c"
   }, {
     "url": "icons/icon-512.png",
-    "revision": "248c2a73a1ada447de7f26b13983b88f"
+    "revision": "8a0f7a29f81b7a5c3ab6cd64c5261f64"
   }, {
     "url": "icons/icon-192.png",
-    "revision": "da6d00f2dcea2fb7df29d277624a8f0b"
+    "revision": "733def5793b1539a6d75886a02abb661"
   }, {
     "url": "assets/workbox-window.prod.es5-Bd17z0YL.js",
     "revision": null
@@ -104,10 +104,10 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "url": "assets/theme-C1cDkxEg.js",
     "revision": null
   }, {
-    "url": "assets/main-CxpjepOA.css",
+    "url": "assets/main-TqiHyH1E.js",
     "revision": null
   }, {
-    "url": "assets/main-C9XmKU6A.js",
+    "url": "assets/main-lkWvi7to.css",
     "revision": null
   }, {
     "url": "assets/devbook-DrqxMYHG.js",
@@ -117,16 +117,16 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": null
   }, {
     "url": "favicon.svg",
-    "revision": "e7a41959706887f7c8c7b542177153fd"
+    "revision": "5eda7d5fe764f3391cbeaf08ef72a864"
   }, {
     "url": "icons/icon-192.png",
-    "revision": "da6d00f2dcea2fb7df29d277624a8f0b"
+    "revision": "733def5793b1539a6d75886a02abb661"
   }, {
     "url": "icons/icon-512.png",
-    "revision": "248c2a73a1ada447de7f26b13983b88f"
+    "revision": "8a0f7a29f81b7a5c3ab6cd64c5261f64"
   }, {
     "url": "icons/icon-maskable-512.png",
-    "revision": "2d277f9d05d797901cd0dbdd8450df53"
+    "revision": "783e0360971fe05ad2d1b2548494177c"
   }, {
     "url": "manifest.webmanifest",
     "revision": "34bb079c35eaa12cef0e786423d53458"
